@@ -62,8 +62,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Send email
         if ($mail->send()) {
-         header("Location:Contact.html");
-} else {
+echo "sucess";
+        } else {
             echo 'Message could not be sent. Mailer Error: ' . $mail->ErrorInfo;
         }
     } catch (Exception $e) {
