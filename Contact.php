@@ -55,7 +55,7 @@
                 </div>
             </div>
             <div class="contact-col">
-                <form  action="Form-handler.php"
+                <form action="./Form-handler.php"
                 method="POST">
                     <input type="text" name="name" placeholder="Enter your name" required>
                     <input type="email" name="email" placeholder="Enter Email Address" required>
